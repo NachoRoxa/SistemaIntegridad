@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="GestionDocumental\" />
+    <Folder Include="Core\" />
+    <Folder Include="SistemaIntegrado\" />
+    <Folder Include="SIAC\" />
+    <Folder Include="Shared\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentDateTime" Version="2.0.0" />
+    <PackageReference Include="Foolproof" Version="0.9.4518" />
+  </ItemGroup>
+
+</Project>
